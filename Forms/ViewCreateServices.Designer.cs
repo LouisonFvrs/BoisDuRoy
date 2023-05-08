@@ -33,7 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.cbb_resp_service = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_create = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // err_mail
@@ -96,29 +96,29 @@
             this.cbb_resp_service.Size = new System.Drawing.Size(266, 30);
             this.cbb_resp_service.TabIndex = 60;
             // 
-            // button1
+            // btn_create
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(44, 225);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 32);
-            this.button1.TabIndex = 62;
-            this.button1.Text = "CRÉER";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_create.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_create.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
+            this.btn_create.FlatAppearance.BorderSize = 0;
+            this.btn_create.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_create.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_create.ForeColor = System.Drawing.Color.White;
+            this.btn_create.Location = new System.Drawing.Point(44, 225);
+            this.btn_create.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_create.Name = "btn_create";
+            this.btn_create.Size = new System.Drawing.Size(104, 32);
+            this.btn_create.TabIndex = 62;
+            this.btn_create.Text = "CRÉER";
+            this.btn_create.UseVisualStyleBackColor = false;
+            this.btn_create.Click += new System.EventHandler(this.button1_Click);
             // 
             // ViewCreateServices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(938, 520);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_create);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.cbb_resp_service);
             this.Controls.Add(this.err_mail);
@@ -139,6 +139,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cbb_resp_service;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_create;
     }
 }

@@ -33,7 +33,7 @@
             this.err_nom_service = new System.Windows.Forms.Label();
             this.tbx_nom_service = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_modify = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label10
@@ -96,29 +96,29 @@
             this.label2.TabIndex = 63;
             this.label2.Text = "Nom service";
             // 
-            // button2
+            // btn_modify
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(44, 225);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 32);
-            this.button2.TabIndex = 69;
-            this.button2.Text = "MODIFIER";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_modify.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_modify.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_modify.FlatAppearance.BorderSize = 0;
+            this.btn_modify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_modify.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_modify.ForeColor = System.Drawing.Color.White;
+            this.btn_modify.Location = new System.Drawing.Point(44, 225);
+            this.btn_modify.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_modify.Name = "btn_modify";
+            this.btn_modify.Size = new System.Drawing.Size(104, 32);
+            this.btn_modify.TabIndex = 69;
+            this.btn_modify.Text = "MODIFIER";
+            this.btn_modify.UseVisualStyleBackColor = false;
+            this.btn_modify.Click += new System.EventHandler(this.button2_Click);
             // 
             // ViewUpdateServices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(938, 520);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_modify);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.cbb_resp_service);
             this.Controls.Add(this.err_nom_service);
@@ -138,6 +138,6 @@
         private System.Windows.Forms.Label err_nom_service;
         private System.Windows.Forms.TextBox tbx_nom_service;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_modify;
     }
 }

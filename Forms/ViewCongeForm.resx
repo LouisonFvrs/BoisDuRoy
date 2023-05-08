@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_download.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAAANJJREFUSEvtk9sNgzAQBFMCJaS0dEIplJASUgIlUIozK3zE4WzEw3zBSCvMYt9E
@@ -131,10 +131,10 @@
   <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_printer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAATNJREFUSEvtlnEVgjAYxIlABCIQwQg2kAZG0Ag2wAbYQBsYgQhGmHfwHSIy2JDn
+        EAAACxABrSO9dQAAATNJREFUSEvtlnEVgjAYxIlABCIQwQg2kAZG0Ag2wAbYQBsYgQhGmHfwHSIy2JDn
         X/7euydst+9gG2AyxDmXQ0WEtlBqw8PAgCMUyx0KD4JZIRXE4yk9IBEeBCMHk8KavMBTt9a33/kgmJaE
         9Mms2w9MMSFn6GrS1K0b0gd+BpHPEDZCXGRdkaaAC6m2EGlcv62EMoaMzeua1AwhF4h3tLZ4N04hpc3e
         qqAuN8Y/JAzU9YfgnG9Wbr8YnaCdlWjA+XgIjrkrviG3UpMhm7bJ3aCx74dPzXYFGyv1EcIHUuYDG0DU

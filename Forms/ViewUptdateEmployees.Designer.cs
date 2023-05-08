@@ -51,7 +51,7 @@
             this.tbx_tel = new System.Windows.Forms.TextBox();
             this.tbx_mail = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_modify = new System.Windows.Forms.Button();
             this.labelTest = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -131,7 +131,7 @@
             this.cbb_fonction.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_fonction.FormattingEnabled = true;
             this.cbb_fonction.Location = new System.Drawing.Point(633, 145);
-            this.cbb_fonction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_fonction.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_fonction.Name = "cbb_fonction";
             this.cbb_fonction.Size = new System.Drawing.Size(266, 30);
             this.cbb_fonction.TabIndex = 53;
@@ -166,7 +166,7 @@
             this.cbb_service.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_service.FormattingEnabled = true;
             this.cbb_service.Location = new System.Drawing.Point(633, 76);
-            this.cbb_service.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_service.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_service.Name = "cbb_service";
             this.cbb_service.Size = new System.Drawing.Size(266, 30);
             this.cbb_service.TabIndex = 50;
@@ -177,7 +177,7 @@
             this.tbx_prenom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_prenom.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_prenom.Location = new System.Drawing.Point(329, 145);
-            this.tbx_prenom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_prenom.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_prenom.Name = "tbx_prenom";
             this.tbx_prenom.Size = new System.Drawing.Size(265, 20);
             this.tbx_prenom.TabIndex = 49;
@@ -200,7 +200,7 @@
             this.tbx_nom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_nom.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nom.Location = new System.Drawing.Point(329, 76);
-            this.tbx_nom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_nom.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_nom.Name = "tbx_nom";
             this.tbx_nom.Size = new System.Drawing.Size(265, 20);
             this.tbx_nom.TabIndex = 47;
@@ -222,7 +222,7 @@
             this.dtp_dateNaiss.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_dateNaiss.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateNaiss.Location = new System.Drawing.Point(633, 283);
-            this.dtp_dateNaiss.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_dateNaiss.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateNaiss.Name = "dtp_dateNaiss";
             this.dtp_dateNaiss.Size = new System.Drawing.Size(266, 27);
             this.dtp_dateNaiss.TabIndex = 43;
@@ -245,7 +245,7 @@
             this.dtp_dateEmb.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_dateEmb.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateEmb.Location = new System.Drawing.Point(633, 214);
-            this.dtp_dateEmb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_dateEmb.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateEmb.Name = "dtp_dateEmb";
             this.dtp_dateEmb.Size = new System.Drawing.Size(266, 27);
             this.dtp_dateEmb.TabIndex = 41;
@@ -269,7 +269,7 @@
             this.tbx_nss.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_nss.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nss.Location = new System.Drawing.Point(42, 214);
-            this.tbx_nss.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_nss.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_nss.Name = "tbx_nss";
             this.tbx_nss.Size = new System.Drawing.Size(265, 20);
             this.tbx_nss.TabIndex = 39;
@@ -304,7 +304,7 @@
             this.tbx_tel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_tel.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_tel.Location = new System.Drawing.Point(42, 145);
-            this.tbx_tel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_tel.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_tel.Name = "tbx_tel";
             this.tbx_tel.Size = new System.Drawing.Size(265, 20);
             this.tbx_tel.TabIndex = 36;
@@ -315,7 +315,7 @@
             this.tbx_mail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_mail.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_mail.Location = new System.Drawing.Point(42, 76);
-            this.tbx_mail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_mail.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_mail.Name = "tbx_mail";
             this.tbx_mail.Size = new System.Drawing.Size(265, 20);
             this.tbx_mail.TabIndex = 35;
@@ -332,22 +332,22 @@
             this.label2.TabIndex = 34;
             this.label2.Text = "Mail";
             // 
-            // button2
+            // btn_modify
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(794, 401);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 32);
-            this.button2.TabIndex = 62;
-            this.button2.Text = "MODIFIER";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_modify.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_modify.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_modify.FlatAppearance.BorderSize = 0;
+            this.btn_modify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_modify.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_modify.ForeColor = System.Drawing.Color.White;
+            this.btn_modify.Location = new System.Drawing.Point(794, 401);
+            this.btn_modify.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_modify.Name = "btn_modify";
+            this.btn_modify.Size = new System.Drawing.Size(104, 32);
+            this.btn_modify.TabIndex = 62;
+            this.btn_modify.Text = "MODIFIER";
+            this.btn_modify.UseVisualStyleBackColor = false;
+            this.btn_modify.Click += new System.EventHandler(this.button2_Click);
             // 
             // labelTest
             // 
@@ -364,7 +364,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(938, 520);
             this.Controls.Add(this.labelTest);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_modify);
             this.Controls.Add(this.err_prenom);
             this.Controls.Add(this.err_nom);
             this.Controls.Add(this.err_nss);
@@ -389,7 +389,7 @@
             this.Controls.Add(this.tbx_mail);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ViewUptdateEmployees";
             this.Text = "ViewUptdateEmployees";
             this.ResumeLayout(false);
@@ -422,7 +422,7 @@
         private System.Windows.Forms.TextBox tbx_tel;
         private System.Windows.Forms.TextBox tbx_mail;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_modify;
         private System.Windows.Forms.Label labelTest;
     }
 }

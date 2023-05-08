@@ -36,12 +36,12 @@ namespace BoisDuRoy_Margaux_Louison.Forms
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewCongeForm));
             this.dgvConges = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_download = new System.Windows.Forms.Button();
+            this.btn_rfs = new System.Windows.Forms.Button();
+            this.btn_accept = new System.Windows.Forms.Button();
             this.searchBox = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_printer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConges)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,8 +78,8 @@ namespace BoisDuRoy_Margaux_Louison.Forms
             this.dgvConges.GridColor = System.Drawing.Color.WhiteSmoke;
             this.dgvConges.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
             this.dgvConges.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvConges.Location = new System.Drawing.Point(12, 94);
-            this.dgvConges.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvConges.Location = new System.Drawing.Point(9, 76);
+            this.dgvConges.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvConges.MultiSelect = false;
             this.dgvConges.Name = "dgvConges";
             this.dgvConges.ReadOnly = true;
@@ -100,104 +100,102 @@ namespace BoisDuRoy_Margaux_Louison.Forms
             this.dgvConges.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvConges.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvConges.ShowCellErrors = false;
-            this.dgvConges.Size = new System.Drawing.Size(1227, 505);
+            this.dgvConges.Size = new System.Drawing.Size(920, 410);
             this.dgvConges.TabIndex = 11;
             // 
-            // button4
+            // btn_download
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.BackColor = System.Drawing.Color.Goldenrod;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(732, 28);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(43, 39);
-            this.button4.TabIndex = 15;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn_download.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_download.BackColor = System.Drawing.Color.Goldenrod;
+            this.btn_download.FlatAppearance.BorderSize = 0;
+            this.btn_download.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_download.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_download.ForeColor = System.Drawing.Color.White;
+            this.btn_download.Image = ((System.Drawing.Image)(resources.GetObject("btn_download.Image")));
+            this.btn_download.Location = new System.Drawing.Point(549, 23);
+            this.btn_download.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_download.Name = "btn_download";
+            this.btn_download.Size = new System.Drawing.Size(32, 32);
+            this.btn_download.TabIndex = 15;
+            this.btn_download.UseVisualStyleBackColor = false;
+            this.btn_download.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // btn_rfs
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(974, 28);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(139, 39);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "REFUSER";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_rfs.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_rfs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btn_rfs.FlatAppearance.BorderSize = 0;
+            this.btn_rfs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_rfs.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_rfs.ForeColor = System.Drawing.Color.White;
+            this.btn_rfs.Location = new System.Drawing.Point(730, 23);
+            this.btn_rfs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_rfs.Name = "btn_rfs";
+            this.btn_rfs.Size = new System.Drawing.Size(104, 32);
+            this.btn_rfs.TabIndex = 14;
+            this.btn_rfs.Text = "REFUSER";
+            this.btn_rfs.UseVisualStyleBackColor = false;
+            this.btn_rfs.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button1
+            // btn_accept
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(830, 28);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 39);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "ACCEPTER";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_accept.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_accept.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
+            this.btn_accept.FlatAppearance.BorderSize = 0;
+            this.btn_accept.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_accept.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_accept.ForeColor = System.Drawing.Color.White;
+            this.btn_accept.Location = new System.Drawing.Point(622, 23);
+            this.btn_accept.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_accept.Name = "btn_accept";
+            this.btn_accept.Size = new System.Drawing.Size(104, 32);
+            this.btn_accept.TabIndex = 12;
+            this.btn_accept.Text = "ACCEPTER";
+            this.btn_accept.UseVisualStyleBackColor = false;
+            this.btn_accept.Click += new System.EventHandler(this.button1_Click);
             // 
             // searchBox
             // 
             this.searchBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchBox.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchBox.ForeColor = System.Drawing.Color.Gray;
-            this.searchBox.Location = new System.Drawing.Point(12, 30);
-            this.searchBox.Margin = new System.Windows.Forms.Padding(4);
+            this.searchBox.Location = new System.Drawing.Point(9, 24);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(713, 36);
+            this.searchBox.Size = new System.Drawing.Size(535, 31);
             this.searchBox.TabIndex = 16;
             this.searchBox.Text = "Rechercher un employé . . . ";
             this.searchBox.TextChanged += new System.EventHandler(this.searchBox_TextChanged);
             // 
-            // button2
+            // btn_printer
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(781, 28);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(43, 39);
-            this.button2.TabIndex = 17;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_printer.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_printer.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_printer.FlatAppearance.BorderSize = 0;
+            this.btn_printer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_printer.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_printer.ForeColor = System.Drawing.Color.White;
+            this.btn_printer.Image = ((System.Drawing.Image)(resources.GetObject("btn_printer.Image")));
+            this.btn_printer.Location = new System.Drawing.Point(586, 23);
+            this.btn_printer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_printer.Name = "btn_printer";
+            this.btn_printer.Size = new System.Drawing.Size(32, 32);
+            this.btn_printer.TabIndex = 17;
+            this.btn_printer.UseVisualStyleBackColor = false;
+            this.btn_printer.Click += new System.EventHandler(this.button2_Click);
             // 
             // ViewCongeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1251, 640);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(938, 520);
+            this.Controls.Add(this.btn_printer);
             this.Controls.Add(this.searchBox);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_download);
+            this.Controls.Add(this.btn_rfs);
+            this.Controls.Add(this.btn_accept);
             this.Controls.Add(this.dgvConges);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ViewCongeForm";
             this.Text = "CONGÉ";
             ((System.ComponentModel.ISupportInitialize)(this.dgvConges)).EndInit();
@@ -209,11 +207,11 @@ namespace BoisDuRoy_Margaux_Louison.Forms
         #endregion
 
         private Bunifu.Framework.UI.BunifuCustomDataGrid dgvConges;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_download;
+        private System.Windows.Forms.Button btn_rfs;
+        private System.Windows.Forms.Button btn_accept;
         private System.Windows.Forms.TextBox searchBox;
         private System.Drawing.Printing.PrintDocument printDocument1;
-        private Button button2;
+        private Button btn_printer;
     }
 }

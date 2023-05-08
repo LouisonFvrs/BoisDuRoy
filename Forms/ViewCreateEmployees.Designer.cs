@@ -54,7 +54,7 @@
             this.err_nss = new System.Windows.Forms.Label();
             this.err_nom = new System.Windows.Forms.Label();
             this.err_prenom = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_create = new System.Windows.Forms.Button();
             this.err_mdp = new System.Windows.Forms.Label();
             this.tbx_password = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -66,7 +66,7 @@
             this.tbx_mat.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_mat.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_mat.Location = new System.Drawing.Point(41, 76);
-            this.tbx_mat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_mat.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_mat.Name = "tbx_mat";
             this.tbx_mat.Size = new System.Drawing.Size(265, 20);
             this.tbx_mat.TabIndex = 0;
@@ -101,7 +101,7 @@
             this.tbx_mail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_mail.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_mail.Location = new System.Drawing.Point(41, 145);
-            this.tbx_mail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_mail.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_mail.Name = "tbx_mail";
             this.tbx_mail.Size = new System.Drawing.Size(265, 20);
             this.tbx_mail.TabIndex = 3;
@@ -112,7 +112,7 @@
             this.tbx_tel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_tel.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_tel.Location = new System.Drawing.Point(41, 214);
-            this.tbx_tel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_tel.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_tel.Name = "tbx_tel";
             this.tbx_tel.Size = new System.Drawing.Size(265, 20);
             this.tbx_tel.TabIndex = 4;
@@ -147,7 +147,7 @@
             this.tbx_nss.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_nss.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nss.Location = new System.Drawing.Point(41, 283);
-            this.tbx_nss.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_nss.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_nss.Name = "tbx_nss";
             this.tbx_nss.Size = new System.Drawing.Size(265, 20);
             this.tbx_nss.TabIndex = 7;
@@ -169,7 +169,7 @@
             this.dtp_dateEmb.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_dateEmb.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateEmb.Location = new System.Drawing.Point(633, 214);
-            this.dtp_dateEmb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_dateEmb.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateEmb.Name = "dtp_dateEmb";
             this.dtp_dateEmb.Size = new System.Drawing.Size(266, 27);
             this.dtp_dateEmb.TabIndex = 10;
@@ -192,7 +192,7 @@
             this.dtp_dateNaiss.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_dateNaiss.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_dateNaiss.Location = new System.Drawing.Point(633, 283);
-            this.dtp_dateNaiss.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_dateNaiss.Margin = new System.Windows.Forms.Padding(2);
             this.dtp_dateNaiss.Name = "dtp_dateNaiss";
             this.dtp_dateNaiss.Size = new System.Drawing.Size(266, 27);
             this.dtp_dateNaiss.TabIndex = 12;
@@ -216,7 +216,7 @@
             this.tbx_nom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_nom.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nom.Location = new System.Drawing.Point(330, 145);
-            this.tbx_nom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_nom.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_nom.Name = "tbx_nom";
             this.tbx_nom.Size = new System.Drawing.Size(265, 20);
             this.tbx_nom.TabIndex = 16;
@@ -239,7 +239,7 @@
             this.tbx_prenom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_prenom.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_prenom.Location = new System.Drawing.Point(330, 214);
-            this.tbx_prenom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbx_prenom.Margin = new System.Windows.Forms.Padding(2);
             this.tbx_prenom.Name = "tbx_prenom";
             this.tbx_prenom.Size = new System.Drawing.Size(265, 20);
             this.tbx_prenom.TabIndex = 18;
@@ -250,7 +250,7 @@
             this.cbb_service.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_service.FormattingEnabled = true;
             this.cbb_service.Location = new System.Drawing.Point(633, 76);
-            this.cbb_service.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_service.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_service.Name = "cbb_service";
             this.cbb_service.Size = new System.Drawing.Size(266, 30);
             this.cbb_service.TabIndex = 19;
@@ -285,7 +285,7 @@
             this.cbb_fonction.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_fonction.FormattingEnabled = true;
             this.cbb_fonction.Location = new System.Drawing.Point(633, 145);
-            this.cbb_fonction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbb_fonction.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_fonction.Name = "cbb_fonction";
             this.cbb_fonction.Size = new System.Drawing.Size(266, 30);
             this.cbb_fonction.TabIndex = 22;
@@ -375,22 +375,22 @@
             this.err_prenom.Text = "Champ vide";
             this.err_prenom.Visible = false;
             // 
-            // button1
+            // btn_create
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(794, 401);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 32);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "CRÉER";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.btn_create.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_create.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
+            this.btn_create.FlatAppearance.BorderSize = 0;
+            this.btn_create.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_create.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_create.ForeColor = System.Drawing.Color.White;
+            this.btn_create.Location = new System.Drawing.Point(794, 401);
+            this.btn_create.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_create.Name = "btn_create";
+            this.btn_create.Size = new System.Drawing.Size(104, 32);
+            this.btn_create.TabIndex = 32;
+            this.btn_create.Text = "CRÉER";
+            this.btn_create.UseVisualStyleBackColor = false;
+            this.btn_create.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // err_mdp
             // 
@@ -429,13 +429,13 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Mot de passe";
             // 
-            // ViewCreateEmployee
+            // ViewCreateEmployees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(938, 520);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_create);
             this.Controls.Add(this.err_prenom);
             this.Controls.Add(this.err_nom);
             this.Controls.Add(this.err_mdp);
@@ -466,8 +466,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbx_mat);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "ViewCreateEmployee";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "ViewCreateEmployees";
             this.Text = "EMPLOYÉ";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -502,7 +502,7 @@
         private System.Windows.Forms.Label err_nss;
         private System.Windows.Forms.Label err_nom;
         private System.Windows.Forms.Label err_prenom;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_create;
         private System.Windows.Forms.Label err_mdp;
         private System.Windows.Forms.TextBox tbx_password;
         private System.Windows.Forms.Label label7;

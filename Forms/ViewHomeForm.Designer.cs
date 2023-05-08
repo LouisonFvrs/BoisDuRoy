@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewHomeForm));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_stats = new System.Windows.Forms.Button();
             this.btnHollidays = new System.Windows.Forms.Button();
             this.btnService = new System.Windows.Forms.Button();
             this.btnFunction = new System.Windows.Forms.Button();
@@ -52,7 +52,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panelMenu.Controls.Add(this.button1);
+            this.panelMenu.Controls.Add(this.btn_stats);
             this.panelMenu.Controls.Add(this.btnHollidays);
             this.panelMenu.Controls.Add(this.btnService);
             this.panelMenu.Controls.Add(this.btnFunction);
@@ -60,29 +60,29 @@
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(229, 720);
+            this.panelMenu.Size = new System.Drawing.Size(172, 585);
             this.panelMenu.TabIndex = 0;
             // 
-            // button1
+            // btn_stats
             // 
-            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Montserrat", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 380);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(229, 75);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Statistiques";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_stats.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_stats.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_stats.FlatAppearance.BorderSize = 0;
+            this.btn_stats.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_stats.Font = new System.Drawing.Font("Montserrat", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_stats.ForeColor = System.Drawing.Color.Black;
+            this.btn_stats.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_stats.Location = new System.Drawing.Point(0, 309);
+            this.btn_stats.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_stats.Name = "btn_stats";
+            this.btn_stats.Size = new System.Drawing.Size(172, 61);
+            this.btn_stats.TabIndex = 6;
+            this.btn_stats.Text = "Statistiques";
+            this.btn_stats.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_stats.UseVisualStyleBackColor = false;
+            this.btn_stats.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnHollidays
             // 
@@ -93,10 +93,10 @@
             this.btnHollidays.Font = new System.Drawing.Font("Montserrat", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHollidays.ForeColor = System.Drawing.Color.Black;
             this.btnHollidays.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHollidays.Location = new System.Drawing.Point(0, 305);
-            this.btnHollidays.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnHollidays.Location = new System.Drawing.Point(0, 248);
+            this.btnHollidays.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHollidays.Name = "btnHollidays";
-            this.btnHollidays.Size = new System.Drawing.Size(229, 75);
+            this.btnHollidays.Size = new System.Drawing.Size(172, 61);
             this.btnHollidays.TabIndex = 5;
             this.btnHollidays.Text = "Congé";
             this.btnHollidays.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -112,10 +112,10 @@
             this.btnService.Font = new System.Drawing.Font("Montserrat", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnService.ForeColor = System.Drawing.Color.Black;
             this.btnService.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnService.Location = new System.Drawing.Point(0, 230);
-            this.btnService.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnService.Location = new System.Drawing.Point(0, 187);
+            this.btnService.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnService.Name = "btnService";
-            this.btnService.Size = new System.Drawing.Size(229, 75);
+            this.btnService.Size = new System.Drawing.Size(172, 61);
             this.btnService.TabIndex = 4;
             this.btnService.Text = "Service";
             this.btnService.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -131,10 +131,10 @@
             this.btnFunction.Font = new System.Drawing.Font("Montserrat", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFunction.ForeColor = System.Drawing.Color.Black;
             this.btnFunction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFunction.Location = new System.Drawing.Point(0, 155);
-            this.btnFunction.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnFunction.Location = new System.Drawing.Point(0, 126);
+            this.btnFunction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFunction.Name = "btnFunction";
-            this.btnFunction.Size = new System.Drawing.Size(229, 75);
+            this.btnFunction.Size = new System.Drawing.Size(172, 61);
             this.btnFunction.TabIndex = 3;
             this.btnFunction.Text = "Fonction";
             this.btnFunction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -150,10 +150,10 @@
             this.btnEmployee.Font = new System.Drawing.Font("Montserrat", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmployee.ForeColor = System.Drawing.Color.Black;
             this.btnEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmployee.Location = new System.Drawing.Point(0, 80);
-            this.btnEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEmployee.Location = new System.Drawing.Point(0, 65);
+            this.btnEmployee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(229, 75);
+            this.btnEmployee.Size = new System.Drawing.Size(172, 61);
             this.btnEmployee.TabIndex = 2;
             this.btnEmployee.Text = "Employé";
             this.btnEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -165,9 +165,9 @@
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(196)))), ((int)(((byte)(179)))));
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(229, 80);
+            this.panelLogo.Size = new System.Drawing.Size(172, 65);
             this.panelLogo.TabIndex = 1;
             // 
             // panelTitle
@@ -179,10 +179,10 @@
             this.panelTitle.Controls.Add(this.btnCloseChildForm);
             this.panelTitle.Controls.Add(this.labelTitle);
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitle.Location = new System.Drawing.Point(229, 0);
-            this.panelTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelTitle.Location = new System.Drawing.Point(172, 0);
+            this.panelTitle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(1251, 80);
+            this.panelTitle.Size = new System.Drawing.Size(938, 65);
             this.panelTitle.TabIndex = 1;
             this.panelTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitle_MouseDown);
             // 
@@ -193,10 +193,10 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Montserrat", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(1131, 0);
-            this.btnMinimize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMinimize.Location = new System.Drawing.Point(848, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(40, 39);
+            this.btnMinimize.Size = new System.Drawing.Size(30, 32);
             this.btnMinimize.TabIndex = 4;
             this.btnMinimize.Text = "-";
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -209,10 +209,10 @@
             this.btnMaxSize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaxSize.Font = new System.Drawing.Font("Montserrat", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaxSize.ForeColor = System.Drawing.Color.White;
-            this.btnMaxSize.Location = new System.Drawing.Point(1172, 2);
-            this.btnMaxSize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMaxSize.Location = new System.Drawing.Point(879, 2);
+            this.btnMaxSize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMaxSize.Name = "btnMaxSize";
-            this.btnMaxSize.Size = new System.Drawing.Size(40, 39);
+            this.btnMaxSize.Size = new System.Drawing.Size(30, 32);
             this.btnMaxSize.TabIndex = 3;
             this.btnMaxSize.Text = "O";
             this.btnMaxSize.UseVisualStyleBackColor = true;
@@ -225,10 +225,10 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Montserrat", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(1208, 2);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClose.Location = new System.Drawing.Point(906, 2);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(40, 39);
+            this.btnClose.Size = new System.Drawing.Size(30, 32);
             this.btnClose.TabIndex = 2;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -241,9 +241,9 @@
             this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCloseChildForm.Image = ((System.Drawing.Image)(resources.GetObject("btnCloseChildForm.Image")));
             this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
-            this.btnCloseChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCloseChildForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCloseChildForm.Name = "btnCloseChildForm";
-            this.btnCloseChildForm.Size = new System.Drawing.Size(75, 80);
+            this.btnCloseChildForm.Size = new System.Drawing.Size(56, 65);
             this.btnCloseChildForm.TabIndex = 1;
             this.btnCloseChildForm.UseVisualStyleBackColor = true;
             this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
@@ -254,9 +254,10 @@
             this.labelTitle.AutoSize = true;
             this.labelTitle.Font = new System.Drawing.Font("Montserrat", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.White;
-            this.labelTitle.Location = new System.Drawing.Point(561, 18);
+            this.labelTitle.Location = new System.Drawing.Point(421, 15);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(129, 46);
+            this.labelTitle.Size = new System.Drawing.Size(106, 37);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "HOME";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -265,10 +266,10 @@
             // 
             this.panelScreen.BackColor = System.Drawing.Color.White;
             this.panelScreen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelScreen.Location = new System.Drawing.Point(229, 80);
-            this.panelScreen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelScreen.Location = new System.Drawing.Point(172, 65);
+            this.panelScreen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelScreen.Name = "panelScreen";
-            this.panelScreen.Size = new System.Drawing.Size(1251, 640);
+            this.panelScreen.Size = new System.Drawing.Size(938, 520);
             this.panelScreen.TabIndex = 2;
             // 
             // bunifuElipse1
@@ -278,16 +279,16 @@
             // 
             // ViewHomeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1480, 720);
+            this.ClientSize = new System.Drawing.Size(1110, 585);
             this.Controls.Add(this.panelScreen);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(1480, 720);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(1110, 585);
             this.Name = "ViewHomeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoisDuRoy";
@@ -313,7 +314,7 @@
         private System.Windows.Forms.Button btnClose;
         public System.Windows.Forms.Panel panelScreen;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_stats;
         public System.Windows.Forms.Button btnCloseChildForm;
     }
 }

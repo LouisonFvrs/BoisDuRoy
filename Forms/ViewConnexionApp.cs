@@ -63,11 +63,9 @@ namespace BoisDuRoy_Margaux_Louison.Forms
         {
             if (verification())
             {
-                ChildForm SF = new ChildForm((Application.OpenForms["ViewHomeForm"] as ViewHomeForm).panelScreen);
-
-                // Activation du bouton de deconnexion
-                (Application.OpenForms["ViewHomeForm"] as ViewHomeForm).btnCloseChildForm.Visible = true;
-                SF.openChildForm(new ViewHomeBoisDuRoy());
+                ViewHomeForm form = new ViewHomeForm();
+                form.Show();
+                this.Hide();
             }
             else
             {

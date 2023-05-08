@@ -22,7 +22,7 @@ namespace BoisDuRoy_Margaux_Louison
             this.ControlBox = false;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             ChildForm SF = new ChildForm(panelScreen);
-            labelTitle.Text = SF.openChildForm(new ViewConnexionApp());
+            labelTitle.Text = SF.openChildForm(new ViewHomeBoisDuRoy());
 
         }
 
@@ -102,9 +102,17 @@ namespace BoisDuRoy_Margaux_Louison
          */
         private void btnCloseChildForm_Click(object sender, EventArgs e)
         {
-            Reset();
-            ChildForm SF = new ChildForm(panelScreen);
-            labelTitle.Text = SF.openChildForm(new ViewConnexionApp()); 
+            // Parcourez tous les formulaires ouverts
+            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)
+            {
+                Form form = Application.OpenForms[i];
+
+                // Fermez tous les formulaires qui ne sont pas le formulaire actuel
+                if (form != this)
+                {
+                    form.Close();
+                }
+            }
         }
 
         /*

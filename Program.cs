@@ -17,7 +17,7 @@ namespace BoisDuRoy_Margaux_Louison
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ViewHomeForm());
+            Application.Run(new ViewConnexionApp());
         }
     }
 }
