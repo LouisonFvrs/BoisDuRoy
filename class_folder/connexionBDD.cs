@@ -32,10 +32,10 @@ namespace BoisDuRoy_Margaux_Louison.class_folder
          */
         private void Initialise()
         {
-            server = "localhost";
+            server = "192.168.67.2";
             database = "bois";
-            uid = "root";
-            password = "";
+            uid = "BoisDuRoy";
+            password = "UnMotDeP@sse";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";

@@ -902,7 +902,7 @@ namespace BoisDuRoy_Margaux_Louison.class_folder
 
             try
             {
-                using (MySqlCommand cmd = new MySqlCommand("SELECT MONTH(date_debut) AS mois, COUNT(*) AS nombre_demandes FROM DEMANDE WHERE id_statut = ( SELECT id_statut FROM STATUT WHERE nom_statut = 'Validé' ) GROUP BY mois ORDER BY mois;", conn.Connection))
+                using (MySqlCommand cmd = new MySqlCommand("SELECT MONTH(date_debut) AS mois, COUNT(*) AS nombre_demandes FROM demande WHERE id_statut = ( SELECT id_statut FROM statut WHERE nom_statut = 'Validé' ) GROUP BY mois ORDER BY mois;", conn.Connection))
                 {
                     conn.Connection.Open();
                     MySqlDataReader reader = cmd.ExecuteReader();
@@ -927,7 +927,7 @@ namespace BoisDuRoy_Margaux_Louison.class_folder
 
             try
             {
-                using (MySqlCommand cmd = new MySqlCommand("SELECT MONTH(date_debut) AS mois, COUNT(*) AS nombre_demandes FROM DEMANDE WHERE id_statut = ( SELECT id_statut FROM STATUT WHERE nom_statut = 'En cours' ) GROUP BY mois ORDER BY mois;", conn.Connection))
+                using (MySqlCommand cmd = new MySqlCommand("SELECT MONTH(date_debut) AS mois, COUNT(*) AS nombre_demandes FROM demande WHERE id_statut = ( SELECT id_statut FROM statut WHERE nom_statut = 'En cours' ) GROUP BY mois ORDER BY mois;", conn.Connection))
                 {
                     conn.Connection.Open();
                     MySqlDataReader reader = cmd.ExecuteReader();
@@ -952,7 +952,7 @@ namespace BoisDuRoy_Margaux_Louison.class_folder
 
             try
             {
-                using (MySqlCommand cmd = new MySqlCommand("SELECT MONTH(date_debut) AS mois, COUNT(*) AS nombre_demandes FROM DEMANDE GROUP BY mois ORDER BY mois;", conn.Connection))
+                using (MySqlCommand cmd = new MySqlCommand("SELECT MONTH(date_debut) AS mois, COUNT(*) AS nombre_demandes FROM demande GROUP BY mois ORDER BY mois;", conn.Connection))
                 {
                     conn.Connection.Open();
                     MySqlDataReader reader = cmd.ExecuteReader();
@@ -977,7 +977,7 @@ namespace BoisDuRoy_Margaux_Louison.class_folder
 
             try
             {
-                using (MySqlCommand cmd = new MySqlCommand("SELECT s.nom_statut AS statut, COUNT(*) AS nombre_conges FROM DEMANDE d JOIN STATUT s ON d.id_statut = s.id_statut WHERE s.nom_statut IN ('Validé', 'En cours', 'Refusé') GROUP BY s.nom_statut ORDER BY s.nom_statut;", conn.Connection))
+                using (MySqlCommand cmd = new MySqlCommand("SELECT s.nom_statut AS statut, COUNT(*) AS nombre_conges FROM demande d JOIN statut s ON d.id_statut = s.id_statut WHERE s.nom_statut IN ('Validé', 'En cours', 'Refusé') GROUP BY s.nom_statut ORDER BY s.nom_statut;", conn.Connection))
                 {
                     conn.Connection.Open();
                     MySqlDataReader reader = cmd.ExecuteReader();
